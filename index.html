@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Laksh Sinha</title>
+<meta name="description" content="Portfolio of Laksh Sinha, B.Tech AI &amp; ML student and AI/ML internship candidate.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero" id="top">
+  <canvas id="isobars" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div class="top">
+      <a class="brand" href="#top">Laksh Sinha</a>
+      <nav class="nav" aria-label="Sections">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+    <div class="hero-grid">
+      <div>
+        <p class="label">Portfolio · 2026</p>
+        <h1>Laksh Sinha</h1>
+        <p class="role">AI/ML engineer intern</p>
+        <p class="lede">B.Tech AI &amp; ML student building end-to-end machine learning in Python: preprocessing, feature engineering, training and evaluation for forecasting and risk prediction, with FastAPI backends that serve the models.</p>
+        <div class="cta">
+          <a class="btn primary" href="#projects">See projects</a>
+          <a class="btn" href="#contact">Get in touch</a>
+        </div>
+      </div>
+      <aside class="card-meta" aria-label="At a glance">
+        <h2>Profile card</h2>
+        <dl>
+          <dt>focus</dt><dd>Forecasting, risk prediction, anomaly detection</dd>
+          <dt>core stack</dt><dd>Python, CatBoost, XGBoost, scikit-learn, FastAPI</dd>
+          <dt>studying</dt><dd>B.Tech AI &amp; ML, 2025 to 2029 (expected)</dd>
+          <dt>based in</dt><dd>Dhanbad, Jharkhand</dd>
+          <dt>seeking</dt><dd>AI/ML internship</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section id="about">
+    <div class="wrap">
+      <div class="sec-head"><h2>About</h2><span class="label">Summary</span></div>
+      <div class="about">
+        <div>
+          <p>I work on the whole path from raw data to a served prediction. That means cleaning messy inputs, engineering features, training and evaluating models, and putting them behind REST and WebSocket APIs so other software can use them.</p>
+          <p>My projects so far cover traffic-demand regression, weather-forecast bias correction and landslide early warning. I have taken part in Smart India Hackathon in 2025 and 2026, where I built backend services and connected ML models to real-time prototypes.</p>
+        </div>
+        <div class="facts" aria-label="Key figures">
+          <div class="fact"><b>0.0232</b><span>Validation MAE, CatBoost traffic model</span></div>
+          <div class="fact"><b>41,778</b><span>Test samples predicted</span></div>
+          <div class="fact"><b>24</b><span>Indian districts in the VERSAAI prototype</span></div>
+          <div class="fact"><b>2</b><span>Smart India Hackathon editions</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="wrap">
+      <div class="sec-head"><h2>Skills</h2><span class="label">Tools and concepts</span></div>
+      <div class="skills">
+        <div class="skill-row"><span class="label">Programming</span><div class="chips"><span class="chip">Python</span><span class="chip">SQL</span></div></div>
+        <div class="skill-row"><span class="label">Machine learning</span><div class="chips"><span class="chip">Scikit-learn</span><span class="chip">CatBoost</span><span class="chip">XGBoost</span><span class="chip">Random Forest</span><span class="chip">Pandas</span><span class="chip">NumPy</span><span class="chip">Regression</span><span class="chip">Classification</span><span class="chip">Feature engineering</span><span class="chip">Data preprocessing</span></div></div>
+        <div class="skill-row"><span class="label">Deep learning and CV</span><div class="chips"><span class="chip">TensorFlow</span><span class="chip">Object detection</span><span class="chip">Anomaly detection</span></div></div>
+        <div class="skill-row"><span class="label">AI/ML concepts</span><div class="chips"><span class="chip">Time-series forecasting</span><span class="chip">Predictive modeling</span><span class="chip">Mixture-of-Experts</span><span class="chip">Risk prediction</span><span class="chip">Model training</span><span class="chip">Model evaluation</span><span class="chip">ML pipelines</span></div></div>
+        <div class="skill-row"><span class="label">Backend</span><div class="chips"><span class="chip">FastAPI</span><span class="chip">Flask</span><span class="chip">REST APIs</span><span class="chip">WebSockets</span><span class="chip">JWT authentication</span><span class="chip">SQLAlchemy</span></div></div>
+        <div class="skill-row"><span class="label">Frontend</span><div class="chips"><span class="chip">React</span><span class="chip">TypeScript</span><span class="chip">Leaflet</span></div></div>
+        <div class="skill-row"><span class="label">Databases</span><div class="chips"><span class="chip">MySQL</span><span class="chip">MongoDB</span><span class="chip">PostgreSQL</span><span class="chip">PostGIS</span></div></div>
+        <div class="skill-row"><span class="label">Tools</span><div class="chips"><span class="chip">Git</span><span class="chip">GitHub</span><span class="chip">Docker</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap">
+      <div class="sec-head"><h2>Projects</h2><span class="label">3 selected</span></div>
+      <div class="projects">
+
+        <article class="project">
+          <div>
+            <div class="kicker"><span class="tag">Prototype</span><span class="tag">Weather</span></div>
+            <h3>VERSAAI: regime-aware weather forecast correction</h3>
+            <ul>
+              <li>Corrects bias in raw NWP model output by classifying the weather regime, then blending expert models with Mixture-of-Experts soft gating.</li>
+              <li>Produces explainable heavy-rain probability and forecast-confidence scores for 24 districts across 6 meteorological regions of India.</li>
+              <li>Includes an interactive dashboard with forecast map, risk ranking, confidence and regime analysis, verification and automated advisories.</li>
+            </ul>
+            <p class="note">Demonstration prototype. All verification uses synthetic data.</p>
+          </div>
+          <div class="metrics">
+            <div class="metric lead"><b>6</b><span>active experts in the gated mixture</span></div>
+            <div class="metric"><b>24</b><span>districts scored</span></div>
+            <div class="metric"><b>6</b><span>meteorological regions</span></div>
+          </div>
+          <div class="pipeline" aria-label="Pipeline">
+            <span class="step">raw NWP forecast</span><span class="arrow">→</span>
+            <span class="step">regime classifier</span><span class="arrow">→</span>
+            <span class="step key">soft gate</span><span class="arrow">→</span>
+            <span class="step">6 experts</span><span class="arrow">→</span>
+            <span class="step">corrected forecast + confidence</span>
+          </div>
+        </article>
+
+        <article class="project">
+          <div>
+            <div class="kicker"><span class="tag">Flipkart Gridlock</span><span class="tag">Regression</span></div>
+            <h3>Traffic demand prediction with CatBoost</h3>
+            <ul>
+              <li>End-to-end regression pipeline that predicts traffic demand for unseen road segments and time intervals from timestamp, road type, lane count, vehicle restrictions and location.</li>
+              <li>Engineered temporal features (hour, day of week, month, weekend, peak hour) and cleaned missing values and invalid timestamps.</li>
+              <li>Trained a CatBoostRegressor with 2,000 iterations, depth 10, learning rate 0.03 and MAE loss.</li>
+            </ul>
+            <div class="chips stack"><span class="chip">Python</span><span class="chip">Pandas</span><span class="chip">NumPy</span><span class="chip">Scikit-learn</span><span class="chip">CatBoost</span></div>
+            <div class="project-links"><a class="btn" href="https://github.com/lakshsinha18" target="_blank" rel="noopener">GitHub</a></div>
+          </div>
+          <div class="metrics">
+            <div class="metric lead"><b>0.0232</b><span>validation MAE</span></div>
+            <div class="metric"><b>41,778</b><span>test samples predicted</span></div>
+            <div class="metric"><b>2,000</b><span>iterations, depth 10, lr 0.03</span></div>
+          </div>
+          <div class="pipeline" aria-label="Pipeline">
+            <span class="step">timestamp + road features</span><span class="arrow">→</span>
+            <span class="step">cleaning</span><span class="arrow">→</span>
+            <span class="step">temporal features</span><span class="arrow">→</span>
+            <span class="step key">CatBoost, MAE loss</span><span class="arrow">→</span>
+            <span class="step">demand prediction</span>
+          </div>
+        </article>
+
+        <article class="project">
+          <div>
+            <div class="kicker"><span class="tag">SIH 2026 entry</span><span class="tag">Full stack</span></div>
+            <h3>ML-based landslide risk prediction</h3>
+            <ul>
+              <li>Landslide monitoring and early-warning platform that combines environmental data, terrain information and citizen reports.</li>
+              <li>Explainable risk-assessment engine using Random Forest and XGBoost, served through FastAPI with JWT authentication and real-time WebSocket updates.</li>
+              <li>React and TypeScript map interface built on Leaflet, backed by PostgreSQL, PostGIS and SQLAlchemy.</li>
+            </ul>
+            <div class="chips stack"><span class="chip">FastAPI</span><span class="chip">Scikit-learn</span><span class="chip">XGBoost</span><span class="chip">React</span><span class="chip">TypeScript</span><span class="chip">PostGIS</span><span class="chip">Docker</span><span class="chip">Leaflet</span></div>
+            <div class="project-links"><a class="btn" href="https://github.com/lakshsinha18" target="_blank" rel="noopener">GitHub</a></div>
+          </div>
+          <div class="metrics">
+            <div class="metric lead"><b>2</b><span>models: Random Forest and XGBoost</span></div>
+            <div class="metric"><b>3</b><span>input sources: environment, terrain, citizen reports</span></div>
+            <div class="metric"><b>Live</b><span>WebSocket risk updates</span></div>
+          </div>
+          <div class="pipeline" aria-label="Pipeline">
+            <span class="step">sensors + terrain + citizen reports</span><span class="arrow">→</span>
+            <span class="step key">Random Forest / XGBoost</span><span class="arrow">→</span>
+            <span class="step">FastAPI + JWT</span><span class="arrow">→</span>
+            <span class="step">WebSocket</span><span class="arrow">→</span>
+            <span class="step">Leaflet risk map</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="wrap">
+      <div class="two-col">
+        <div>
+          <div class="sec-head"><h2>Experience</h2></div>
+          <ul class="timeline">
+            <li>
+              <span class="when">2025 to 2026</span>
+              <h3>Backend Developer</h3>
+              <span class="org">Smart India Hackathon (SIH) 2025 and 2026, participant</span>
+              <p>Built backend services and integrated ML models into a real-time prototype. Handled IoT sensor-data ingestion and database connectivity under tight deadlines. Cleared the institute-level internal round for SIH 2026; national results are pending.</p>
+            </li>
+            <li>
+              <span class="when">Jan 2026 to present</span>
+              <h3>Community Member</h3>
+              <span class="org">Google Developer Groups (GDG) on Campus</span>
+              <p>Attend AI/ML, cloud and software-development workshops and hackathons, and collaborate on peer projects using Git and GitHub.</p>
+            </li>
+            <li>
+              <span class="when">Workshop</span>
+              <h3>Participant</h3>
+              <span class="org">AI/ML Workshop, MANIT Bhopal</span>
+              <p>Hands-on training in machine learning and object detection.</p>
+            </li>
+          </ul>
+        </div>
+        <div id="education">
+          <div class="sec-head"><h2>Education</h2></div>
+          <ul class="timeline">
+            <li>
+              <span class="when">2025 to 2029 (expected)</span>
+              <h3>B.Tech, Artificial Intelligence &amp; Machine Learning</h3>
+              <span class="org">Technocrats Institute of Technology, Bhopal</span>
+            </li>
+            <li>
+              <span class="when">Certifications</span>
+              <h3>Google AI Professional Certificate</h3>
+              <span class="org">2026</span>
+            </li>
+            <li>
+              <h3>Machine Learning with AI</h3>
+              <span class="org">IIT Madras</span>
+            </li>
+            <li>
+              <h3>Foundations of Web Development</h3>
+              <span class="org">GitHub</span>
+            </li>
+            <li>
+              <span class="when">School</span>
+              <h3>Class XII (2025) and Class X (2023)</h3>
+              <span class="org">DAV Public School, Dhanbad</span>
+            </li>
+            <li>
+              <span class="when">Achievement · 2026</span>
+              <h3>2nd rank, Conquer Mind Coding Competition</h3>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="contact-box">
+        <div>
+          <p class="label" style="color: inherit; opacity: 0.8;">Open to</p>
+          <h2>AI/ML internship opportunities</h2>
+          <p>If you are hiring for forecasting, risk prediction or ML engineering work, I would like to hear about it.</p>
+        </div>
+        <div class="contact-list">
+          <div class="contact-line">
+            <span class="k">Email</span>
+            <span class="v" id="v-email">lakshsinha18@gmail.com</span>
+            <button type="button" class="copy" data-target="v-email">Copy</button>
+          </div>
+          <div class="contact-line">
+            <span class="k">Phone</span>
+            <span class="v" id="v-phone">+91-9341795548</span>
+            <button type="button" class="copy" data-target="v-phone">Copy</button>
+          </div>
+          <div class="contact-line">
+            <span class="k">LinkedIn</span>
+            <a class="v" href="https://linkedin.com/in/laksh-sinha-070519367" target="_blank" rel="noopener">linkedin.com/in/laksh-sinha-070519367</a>
+          </div>
+          <div class="contact-line">
+            <span class="k">GitHub</span>
+            <a class="v" href="https://github.com/lakshsinha18" target="_blank" rel="noopener">github.com/lakshsinha18</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <span>Laksh Sinha · Dhanbad, Jharkhand</span>
+  <a href="#top">Back to top</a>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
